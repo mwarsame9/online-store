@@ -2,3 +2,14 @@
 if error message: Can't resolve 'promise-polyfill' run below command
 
 npm install promise-polyfill --save-exact
+
+
+Add below to gitignore file
+
+#Firebase credentials
+/src/app/api-keys.ts
+
+
+Hosting URL:
+
+https://online-store-a93aa.firebaseapp.com

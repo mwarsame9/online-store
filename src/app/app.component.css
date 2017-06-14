@@ -1,5 +1,6 @@
 * {
   color: red;
+  font-family: 'Droid Sans', sans-serif;
 }
 
 .footer {
@@ -25,6 +26,7 @@
 .nav.navbar-nav.navbar-right li a {
     color: white;
     font-size: 16px;
+    font-family: 'Libre Baskerville', serif;
 }
 
 .highlight{
@@ -32,6 +34,7 @@
   font-size: 24px;
   font-style: italic;
   margin-left: 40%;
+  font-family: 'Monoton', cursive;
 }
 
 .highlight:hover{
@@ -40,4 +43,5 @@
 
 .navbar-header {
   text-align: center;
+  font-family: 'Libre Baskerville', serif;
 }
