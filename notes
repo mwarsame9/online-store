@@ -13,3 +13,9 @@ Add below to gitignore file
 Hosting URL:
 
 https://online-store-a93aa.firebaseapp.com
+
+clone project
+* npm install
+* bower install
+* ng build
+* ng serve

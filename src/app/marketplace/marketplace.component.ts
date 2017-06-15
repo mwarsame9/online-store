@@ -11,6 +11,7 @@ import { FirebaseListObservable } from 'angularfire2/database';
   providers: [AlbumService]
 })
 export class MarketplaceComponent implements OnInit {
+  filterByArtist: string = "allArtists";
   albums: FirebaseListObservable<any[]>;
   currentRoute: string = this.router.url;
 
@@ -18,6 +19,10 @@ export class MarketplaceComponent implements OnInit {
 
   ngOnInit(){
     this.albums = this.albumService.getAlbums();
+  }
+
+  onChange(optionFromMenu) {
+    this.filterByArtist = optionFromMenu;
   }
 
    goToDetailPage(clickedAlbum) {
